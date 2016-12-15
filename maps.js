@@ -7,7 +7,7 @@ var mymap = L.map('mapid').setView([50.29889, 18.95378], 13);
 			'Imagery © <a href="http://mapbox.com">Mapbox</a>',
 		id: 'mapbox.streets'
 	}).addTo(mymap);
-
+/*
 	L.marker([51.5, -0.09]).addTo(mymap)
 		.bindPopup("<b>Hello world!</b><br />I am a popup.").openPopup();
 
@@ -23,7 +23,7 @@ var mymap = L.map('mapid').setView([50.29889, 18.95378], 13);
 		[51.51, -0.047]
 	]).addTo(mymap).bindPopup("I am a polygon.");
 
-
+*/
 	var popup = L.popup();
 
 	function onMapClick(e) {
