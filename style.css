@@ -3,5 +3,6 @@ body{
   }
 
 #mapid { 
-  height: 300px; 
+  width:600px;
+  height:400px; 
 }
